@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/drawable/auth_btn.xml" value="0.213" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/activity_pets_regestration.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/activity_register.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/activity_splash_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/add_address.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/address_dialogue.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/address_single_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/bottom_address.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/color_spinner.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/deco_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/decor_address_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/decor_address_single_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/decor_bottom_address.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/faq_singlerow.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/feedback_dialogue.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/firestore_recylerview_single_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/fragment_cat.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/fragment_deco.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/fragment_decor_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/fragment_dog.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/fragment_faq.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/fragment_grooming.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/fragment_pet_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/fragment_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/fragment_shop.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/fragment_shop_detail.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/item_pet.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/new_address_layout.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/per_profile.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/shop_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Downloads/PetHome/PetHome/app/src/main/res/layout/user_profile.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

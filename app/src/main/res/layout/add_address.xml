@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/pincode_lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/input_shape">
+
+        <EditText
+            android:id="@+id/pin_code_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:background="@null"
+            android:backgroundTint="@null"
+            android:drawableStart="@drawable/ic_location"
+            android:drawablePadding="12dp"
+            android:drawableTint="@color/iconTint"
+            android:fontFamily="@font/futura_round"
+            android:hint="@string/enter_your_pin_code"
+            android:inputType="number" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/address_full_lay"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input_shape">
+
+        <EditText
+            android:id="@+id/address_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_toEndOf="@id/location_drawable"
+            android:background="@null"
+            android:backgroundTint="@null"
+            android:drawableTint="@color/iconTint"
+            android:fontFamily="@font/futura_round"
+            android:gravity="top"
+            android:hint="@string/full_address"
+            android:inputType="text"
+            android:maxLines="5" />
+
+        <ImageView
+            android:id="@+id/location_drawable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/ic_location"
+            app:tint="@color/iconTint" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/landmark_lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/input_shape">
+
+        <EditText
+            android:id="@+id/landmark_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:background="@null"
+            android:backgroundTint="@null"
+            android:drawableStart="@drawable/ic_location"
+            android:drawablePadding="12dp"
+            android:drawableTint="@color/iconTint"
+            android:fontFamily="@font/futura_round"
+            android:hint="@string/enter_landmarks_to_your_place"
+            android:inputType="text" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/town_lay"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/input_shape">
+
+            <EditText
+                android:id="@+id/town_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:background="@null"
+                android:backgroundTint="@null"
+                android:drawableStart="@drawable/ic_location"
+                android:drawablePadding="12dp"
+                android:drawableTint="@color/iconTint"
+                android:fontFamily="@font/futura_round"
+                android:hint="@string/select_your_town"
+                android:inputType="number" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/city_lay"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/input_shape">
+
+            <EditText
+                android:id="@+id/city_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:background="@null"
+                android:backgroundTint="@null"
+                android:drawableStart="@drawable/ic_location"
+                android:drawablePadding="12dp"
+                android:drawableTint="@color/iconTint"
+                android:fontFamily="@font/futura_round"
+                android:hint="@string/city"
+                android:inputType="number" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:id="@+id/state_lay"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/input_shape">
+
+            <EditText
+                android:id="@+id/state_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:background="@null"
+                android:backgroundTint="@null"
+                android:drawableStart="@drawable/ic_location"
+                android:drawablePadding="12dp"
+                android:drawableTint="@color/iconTint"
+                android:fontFamily="@font/futura_round"
+                android:hint="@string/state"
+                android:inputType="number" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/country_lay"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/input_shape">
+
+            <EditText
+                android:id="@+id/country_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:background="@null"
+                android:backgroundTint="@null"
+                android:drawableStart="@drawable/ic_location"
+                android:drawablePadding="12dp"
+                android:drawableTint="@color/iconTint"
+                android:fontFamily="@font/futura_round"
+                android:hint="@string/country"
+                android:inputType="number" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/register_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/auth_btn"
+        android:elevation="12dp"
+        android:orientation="vertical"
+        android:outlineAmbientShadowColor="@color/primaryshadow"
+        android:outlineSpotShadowColor="@color/primaryshadow"
+        tools:targetApi="p">
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

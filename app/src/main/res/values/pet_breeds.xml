@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pet_breed_list">
+
+
+
+    <item>AFFENPINSCHER</item>
+    <item>AFGHAN HOUND</item>
+    <item>AIREDALE TERRIER</item>
+    <item>AKITA</item>
+    <item>ALASKAN MALAMUTE</item>
+    <item>AMERICAN STAFFORD TERRIER</item>
+    <item>AUSTRALIAN SHEPHERD</item>
+    <item>AUSTRALIAN TERRIER</item>
+    <item>BASENJI</item>
+    <item>BASSET HOUND</item>
+    <item>BEAGLE</item>
+    <item>BEARDED COLLIE</item>
+    <item>BEDLINGTON TERRIER</item>
+    <item>BERNESE MOUNTAIN DOG</item>
+    <item>BICHON FRISE</item>
+    <item>BIRD</item>
+    <item>BLOOD HOUND</item>
+    <item>BORDEAUX MASTIFF</item>
+    <item>BORDER COLLIE</item>
+    <item>BORDER TERRIER</item>
+    <item>BORZOI</item>
+    <item>BOSTON TERRIER</item>
+    <item>BOUVIER DES FLANDRES</item>
+    <item>BOXER</item>
+    <item>BRIARD</item>
+    <item>BRITTANY SPANIEL</item>
+    <item>BULL DOG</item>
+    <item>BULL MASTIFF</item>
+    <item>BULL TERRIER</item>
+    <item>BULL TERRIER (MINIATURE)</item>
+    <item>CAIRN TERRIER</item>
+    <item>CAV KING C SPANIEL</item>
+    <item>CHIHUAHUA</item>
+    <item>CHINESE CRESTED</item>
+    <item>CHOW CHOW</item>
+    <item>CLUMBER SPANIEL</item>
+    <item>COCKER SPANIEL</item>
+    <item>DACHSHUND MINIATURE</item>
+    <item>DACHSHUND STANDARD</item>
+    <item>DALMATION</item>
+    <item>DEER HOUND</item>
+    <item>DOBERMANA</item>
+    <item>DOGO ARGENITINO</item>
+    <item>ELKHOUND</item>
+    <item>ENGLISH SETTER</item>
+    <item>FIELD SPANIEL</item>
+    <item>FINNISH SPITZ</item>
+    <item>FRENCH BULL DOG</item>
+    <item>GERMAN SHEPHERD DOG</item>
+    <item>GAINT SCHNAUZER</item>
+    <item>GINIPIC</item>
+    <item>GOLDEN RETRIEVER</item>
+    <item>GORDON SETTER</item>
+    <item>GREAT DANE</item>
+    <item>GREY HOUND</item>
+    <item>HAMSTER</item>
+    <item>HAVANESE</item>
+    <item>IBIZAN HOUND</item>
+    <item>INDIE</item>
+    <item>IRISH SETTER</item>
+    <item>IRISH TERRIER</item>
+    <item>IRISH WATER SPANIEL</item>
+    <item>IRISH WOLF HOUND</item>
+    <item>ITALIAN GREY HOUND</item>
+    <item>JACK RUSSELL TERRIER</item>
+    <item>JAPANESE CHIN</item>
+    <item>KEESHOUND</item>
+    <item>KERRY BLUE TERRIER</item>
+    <item>KOMONDOR</item>
+    <item>LABRADOR RETRIEVER</item>
+    <item>LAKELAND TERRIER</item>
+    <item>MALTESE</item>
+    <item>MASTIFF</item>
+    <item>MINIATURE PINSCHER</item>
+    <item>MINIATURE SCHNAUZER</item>
+    <item>NEW FOUNDLAND</item>
+    <item>PAKISTANI BULLY</item>
+    <item>PAPILLON</item>
+    <item>PEKINGESE</item>
+    <item>PHARAOH HOUND</item>
+    <item>PITULL</item>
+    <item>POMERANIAN</item>
+    <item>POODLE (MINIATURE)</item>
+    <item>POODLE (STANDARD )</item>
+    <item>POODLE (TOY)</item>
+    <item>PUG</item>
+    <item>PULI</item>
+    <item>RABBIT</item>
+    <item>RHODESIAN RIDGEBACK</item>
+    <item>ROTTWEILER</item>
+    <item>SALUKI</item>
+    <item>SAMOYED</item>
+    <item>SCHIPPERKE</item>
+    <item>SCOTTISH TERRIER</item>
+    <item>SEALYHAM TERRIOR</item>
+    <item>SHAR PEI</item>
+    <item>SHETLAND SHEEP DOG</item>
+    <item>SHIH TZU</item>
+    <item>SIBERIAN HUSKY</item>
+    <item>SILKY TERRIER</item>
+    <item>SKYE TERRIER</item>
+    <item>SPRINGER SPANIEL</item>
+    <item>ST. BERNARD</item>
+    <item>SUSSEX SPANIEL</item>
+    <item>TIBETAN MASTIFF</item>
+    <item>TIBETAN SPANIEL</item>
+    <item>TIBETAN TERRIER</item>
+    <item>TURTLES</item>
+    <item>VIZSLA</item>
+    <item>WEIMARANER</item>
+    <item>WHIPPET</item>
+    <item>YORKSHIRE TERRIER</item>
+    <item>BENGAL</item>
+    <item>BURMESE</item>
+    <item>EUROPIA</item>
+    <item>MIXED</item>
+    <item>AFFENPINSCHER</item>
+    <item>AFGHAN HOUND</item>
+    <item>AIREDALE TERRIER</item>
+    <item>AKITA</item>
+    <item>ALASKAN MALAMUTE</item>
+    <item>AMERICAN STAFFORD TERRIER</item>
+    <item>AUSTRALIAN SHEPHERD</item>
+    <item>AUSTRALIAN TERRIER</item>
+    <item>BASENJI</item>
+    <item>BASSET HOUND</item>
+    <item>BEAGLE</item>
+    <item>BEARDED COLLIE</item>
+    <item>BEDLINGTON TERRIER</item>
+    <item>BERNESE MOUNTAIN DOG</item>
+    <item>BICHON FRISE</item>
+    <item>BIRD</item>
+    <item>BLOOD HOUND</item>
+    <item>BORDEAUX MASTIFF</item>
+    <item>BORDER COLLIE</item>
+    <item>BORDER TERRIER</item>
+    <item>BORZOI</item>
+    <item>BOSTON TERRIER</item>
+    <item>BOUVIER DES FLANDRES</item>
+    <item>BOXER</item>
+    <item>BRITTANY SPANIEL</item>
+    <item>BULL DOG</item>
+    <item>BULL MASTIFF</item>
+    <item>BULL TERRIER</item>
+    <item>BULL TERRIER (MINIATURE)</item>
+    <item>CAIRN TERRIER</item>
+    <item>CAV KING C SPANIEL</item>
+    <item>CHIHUAHUA</item>
+    <item>CHINESE CRESTED</item>
+    <item>CHOW CHOW</item>
+    <item>CLUMBER SPANIEL</item>
+    <item>COCKER SPANIEL</item>
+    <item>DACHSHUND MINIATURE</item>
+    <item>DACHSHUND STANDARD</item>
+    <item>DALMATION</item>
+    <item>DEER HOUND</item>
+    <item>DOBERMANA</item>
+    <item>DOGO ARGENITINO</item>
+    <item>ELKHOUND</item>
+    <item>ENGLISH SETTER</item>
+    <item>FIELD SPANIEL</item>
+    <item>FINNISH SPITZ</item>
+    <item>FRENCH BULL DOG</item>
+    <item>GERMAN SHEPHERD DOG</item>
+    <item>GAINT SCHNAUZER</item>
+    <item>GINIPIC</item>
+    <item>GOLDEN RETRIEVER</item>
+    <item>GORDON SETTER</item>
+    <item>GREAT DANE</item>
+    <item>GREY HOUND</item>
+    <item>HAMSTER</item>
+    <item>HAVANESE</item>
+    <item>IBIZAN HOUND</item>
+    <item>INDIE</item>
+    <item>IRISH SETTER</item>
+    <item>IRISH TERRIER</item>
+    <item>IRISH WATER SPANIEL</item>
+    <item>IRISH WOLF HOUND</item>
+    <item>ITALIAN GREY HOUND</item>
+    <item>JACK RUSSELL TERRIER</item>
+    <item>JAPANESE CHIN</item>
+    <item>KEESHOUND</item>
+    <item>KERRY BLUE TERRIER</item>
+    <item>KOMONDOR</item>
+    <item>LABRADOR RETRIEVER</item>
+    <item>LAKELAND TERRIER</item>
+    <item>MALTESE</item>
+    <item>MASTIFF</item>
+    <item>MINIATURE PINSCHER</item>
+    <item>MINIATURE SCHNAUZER</item>
+    <item>NEW FOUNDLAND</item>
+    <item>PAKISTANI BULLY</item>
+    <item>PAPILLON</item>
+    <item>PEKINGESE</item>
+    <item>PHARAOH HOUND</item>
+    <item>PITULL</item>
+    <item>POMERANIAN</item>
+    <item>POODLE (MINIATURE)</item>
+    <item>POODLE (STANDARD )</item>
+    <item>POODLE (TOY)</item>
+    <item>PUG</item>
+    <item>PULI</item>
+    <item>RABBIT</item>
+    <item>RHODESIAN RIDGEBACK</item>
+    <item>ROTTWEILER</item>
+    <item>SALUKI</item>
+    <item>SAMOYED</item>
+    <item>SCHIPPERKE</item>
+    <item>SCOTTISH TERRIER</item>
+    <item>SEALYHAM TERRIOR</item>
+    <item>SHAR PEI</item>
+    <item>SHETLAND SHEEP DOG</item>
+    <item>SHIH TZU</item>
+    <item>SIBERIAN HUSKY</item>
+    <item>SILKY TERRIER</item>
+    <item>SKYE TERRIER</item>
+    <item>SPRINGER SPANIEL</item>
+    <item>ST. BERNARD</item>
+    <item>SUSSEX SPANIEL</item>
+    <item>TIBETAN MASTIFF</item>
+    <item>TIBETAN SPANIEL</item>
+    <item>TIBETAN TERRIER</item>
+    <item>TURTLES</item>
+    <item>VIZSLA</item>
+    <item>WEIMARANER</item>
+    <item>WHIPPET</item>
+    <item>YORKSHIRE TERRIER</item>
+    <item>BENGAL</item>
+    <item>BURMESE</item>
+    <item>EUROPIA</item>
+    <item>MIXED</item>
+    <item>PERSIAN</item>
+
+    </string-array>
+
+
+
+</resources>

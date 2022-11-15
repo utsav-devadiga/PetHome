@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pet_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.petHomeApps.petHome.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_groomingFragment"
+            app:destination="@id/groomingFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_faqFragment"
+            app:destination="@id/faqFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_shopFragment"
+            app:destination="@id/shopFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_decoFragment"
+            app:destination="@id/decoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_petProfileFragment"
+            app:destination="@id/petProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/groomingFragment"
+        android:name="com.petHomeApps.petHome.fragments.GroomingFragment"
+        android:label="fragment_grooming"
+        tools:layout="@layout/fragment_grooming" />
+    <fragment
+        android:id="@+id/faqFragment"
+        android:name="com.petHomeApps.petHome.fragments.FaqFragment"
+        android:label="fragment_faq"
+        tools:layout="@layout/fragment_faq" />
+    <fragment
+        android:id="@+id/shopFragment"
+        android:name="com.petHomeApps.petHome.fragments.ShopFragment"
+        android:label="fragment_shop"
+        tools:layout="@layout/fragment_shop">
+        <action
+            android:id="@+id/action_shopFragment_to_shopDetailFragment"
+            app:destination="@id/shopDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/decoFragment"
+        android:name="com.petHomeApps.petHome.fragments.DecoFragment"
+        android:label="fragment_deco"
+        tools:layout="@layout/fragment_deco">
+        <action
+            android:id="@+id/action_decoFragment_to_decorDetailFragment"
+            app:destination="@id/decorDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/decorDetailFragment"
+        android:name="com.petHomeApps.petHome.fragments.DecorDetailFragment"
+        android:label="fragment_decor_detail"
+        tools:layout="@layout/fragment_decor_detail">
+        <argument
+            android:name="deco_model_name"
+            app:argType="string" />
+        <argument
+            android:name="deco_model_description"
+            app:argType="string" />
+        <argument
+            android:name="deco_model_price"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/shopDetailFragment"
+        android:name="com.petHomeApps.petHome.fragments.ShopDetailFragment"
+        android:label="fragment_shop_detail"
+        tools:layout="@layout/fragment_shop_detail">
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <argument
+            android:name="desc"
+            app:argType="string" />
+        <argument
+            android:name="price"
+            app:argType="string" />
+        <argument
+            android:name="category"
+            app:argType="string" />
+        <argument
+            android:name="shopData"
+            app:argType="com.petHomeApps.petHome.Datamodels.ShopModel"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.petHomeApps.petHome.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/petProfileFragment"
+        android:name="com.petHomeApps.petHome.fragments.PetProfileFragment"
+        android:label="fragment_pet_profile"
+        tools:layout="@layout/fragment_pet_profile" >
+        <argument
+            android:name="PetData"
+            app:argType="com.petHomeApps.petHome.Datamodels.PetModel" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:background="@drawable/address_decor"
+    android:layout_margin="6dp"
+    android:layout_height="200dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Utsav Devadiga"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/futura_medium"
+            android:id="@+id/dusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/dfull_address"
+            android:textSize="16sp"
+            android:fontFamily="@font/futura_medium"
+            android:text="Full Adresss"
+            android:layout_below="@+id/dusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+        <TextView
+            android:id="@+id/dlandmark"
+            android:textSize="16sp"
+            android:fontFamily="@font/futura_medium"
+            android:text="Landmark"
+            android:layout_below="@+id/dfull_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/dcity"
+            android:layout_below="@+id/dtowntext"
+            android:textSize="16sp"
+            android:text="Mumbai"
+            android:fontFamily="@font/futura_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+        <TextView
+            android:textSize="16sp"
+            android:layout_below="@+id/dtowntext"
+            android:id="@+id/dstate"
+            android:layout_marginLeft="10dp"
+            android:text="Maharashtra"
+            android:layout_toRightOf="@+id/dcity"
+            android:fontFamily="@font/futura_medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/dtowntext"
+            android:fontFamily="@font/futura_medium"
+            android:layout_width="wrap_content"
+            android:text="Malad West"
+            android:layout_below="@+id/dlandmark"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/dpincode"
+            android:text="400065"
+            android:fontFamily="@font/futura_medium"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/dtowntext"
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/dstate"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/dcountrytext"
+            android:fontFamily="@font/futura_medium"
+            android:layout_width="wrap_content"
+            android:text="India"
+            android:layout_below="@+id/dcity"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

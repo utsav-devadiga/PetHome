@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">PetHome</string>
+    <string name="already_a_member">Already a member?</string>
+    <string name="not_a_member">Not a member?</string>
+    <string name="create_account">Create Account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="firstname">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign-In</string>
+    <string name="hello">Hello!</string>
+    <string name="full_address">Full Address</string>
+    <string name="mumbai">Mumbai</string>
+    <string name="select_your_town">Town</string>
+    <string name="date">Date</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="which_pet_did_you_have">Which pet did you have?</string>
+    <string name="pet_name">Pet Name</string>
+    <string name="pet_breed">Pet Breed</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="submit">Submit</string>
+    <string name="register_my_pet">Register my pet!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_queries">Search Queries</string>
+    <string name="medicine">Medicine</string>
+    <string name="enter_your_pin_code">Enter your pin-code</string>
+    <string name="enter_landmarks_to_your_place">Enter landmarks to your place</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="order_just_two_clicks_away">Order just two clicks away!</string>
+    <string name="book_now">Book Now</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="send_reset_link">send reset link</string>
+    <string name="done">Done</string>
+    <string name="petname">PetName</string>
+</resources>

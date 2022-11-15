@@ -1,0 +1,206 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pet_reg_main_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="12dp">
+
+    <TextView
+        android:id="@+id/pet_selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/futura_round"
+        android:hint="@string/which_pet_did_you_have"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/pet_selection_spinner_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pet_selection"
+        android:background="@drawable/input_shape">
+
+        <Spinner
+            android:id="@+id/pet_selection_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/futura_round"
+            android:gravity="center"
+            android:padding="12dp" />
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/pet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pet_selection_spinner_lay"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/input_shape"
+        android:fontFamily="@font/futura_round"
+        android:hint="@string/pet_name"
+        android:inputType="textPersonName"
+        android:padding="12dp" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/pet_breed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pet_name"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/input_shape"
+        android:fontFamily="@font/futura_round"
+        android:hint="@string/pet_breed"
+        android:padding="12dp" />
+
+    <LinearLayout
+        android:id="@+id/Age_Selection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pet_breed"
+        android:layout_marginTop="12dp"
+
+        android:weightSum="90">
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="2dp"
+            android:layout_weight="30"
+            android:background="@drawable/input_shape"
+            android:fontFamily="@font/futura_round"
+            android:hint="@string/date"
+            android:inputType="date"
+            android:maxLength="2"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/month"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="2dp"
+            android:layout_weight="30"
+            android:background="@drawable/input_shape"
+            android:fontFamily="@font/futura_round"
+            android:hint="@string/month"
+            android:inputType="date"
+            android:maxLength="2"
+            android:padding="12dp" />
+
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="2dp"
+            android:layout_weight="30"
+            android:background="@drawable/input_shape"
+            android:fontFamily="@font/futura_round"
+            android:hint="@string/year"
+            android:inputType="date"
+            android:maxLength="4"
+            android:padding="12dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gender_selection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Age_Selection"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/futura_round"
+            android:text="@string/select_gender" />
+
+
+        <RadioGroup
+            android:id="@+id/gender_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/input_shape"
+                android:fontFamily="@font/futura_round"
+                android:text="@string/male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/input_shape"
+                android:fontFamily="@font/futura_round"
+                android:text="@string/female" />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+
+        android:id="@+id/sumbit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/auth_btn"
+        android:elevation="12dp"
+        android:orientation="vertical"
+        android:outlineAmbientShadowColor="@color/primaryshadow"
+        android:outlineSpotShadowColor="@color/primaryshadow"
+        tools:targetApi="p">
+
+        <TextView
+            android:id="@+id/register_pet_btn_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginHorizontal="20dp"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/futura_round"
+            android:gravity="center"
+            android:paddingHorizontal="12sp"
+            android:paddingVertical="10sp"
+            android:text="@string/register_my_pet"
+            android:textColor="@color/white"
+            android:visibility="visible"
+            app:drawableEndCompat="@drawable/ic_pawprint"
+            app:drawableTint="@color/white" />
+
+        <ProgressBar
+            android:id="@+id/pet_progress_bar"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/white"
+            android:visibility="gone" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

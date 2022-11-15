@@ -1,0 +1,447 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainRegLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:drawableTint="@color/iconTint">
+
+            <TextView
+                android:id="@+id/hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/futura_round"
+                android:text="@string/hello"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/registerLay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/hello"
+                android:orientation="vertical"
+                android:paddingBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:id="@+id/first_name_lay"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="6dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_shape">
+
+                        <EditText
+                            android:id="@+id/first_name_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="12dp"
+                            android:background="@null"
+                            android:backgroundTint="@null"
+                            android:drawableStart="@drawable/ic_user"
+                            android:drawablePadding="12dp"
+                            android:drawableTint="@color/iconTint"
+                            android:fontFamily="@font/futura_round"
+                            android:hint="@string/firstname"
+                            android:inputType="textPersonName" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/last_name_lay"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_shape">
+
+                        <EditText
+                            android:id="@+id/last_name_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="12dp"
+                            android:background="@null"
+                            android:drawableStart="@drawable/ic_user"
+                            android:drawablePadding="12dp"
+                            android:drawableTint="@color/iconTint"
+                            android:fontFamily="@font/futura_round"
+                            android:hint="@string/last_name"
+                            android:inputType="textPersonName"
+                            android:textColor="?attr/colorOnBackground" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/phone_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_shape"
+                    android:drawableStart="@drawable/ic_number"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/iconTint"
+                    android:fontFamily="@font/futura_round"
+                    android:hint="@string/mobile_number"
+                    android:inputType="phone"
+                    android:padding="12dp">
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/email_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_shape"
+                    android:drawableStart="@drawable/ic_email"
+                    android:drawablePadding="12dp"
+                    android:drawableTint="@color/iconTint"
+                    android:fontFamily="@font/futura_round"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:padding="12dp">
+
+                </EditText>
+
+
+                <RelativeLayout
+                    android:id="@+id/password_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/input_shape">
+
+                    <EditText
+                        android:id="@+id/password_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="12dp"
+                        android:background="@null"
+                        android:backgroundTint="@null"
+                        android:drawableStart="@drawable/ic_pass_key"
+                        android:drawablePadding="12dp"
+                        android:drawableTint="@color/iconTint"
+                        android:fontFamily="@font/futura_round"
+                        android:hint="@string/password"
+                        android:inputType="textPassword" />
+
+                    <ImageView
+                        android:id="@+id/visible_img_reg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="12dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:src="@drawable/ic_visible"
+                        app:tint="@color/iconTint" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/pincode_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/input_shape">
+
+                    <EditText
+                        android:id="@+id/pin_code_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="12dp"
+                        android:background="@null"
+                        android:backgroundTint="@null"
+                        android:drawableStart="@drawable/ic_location"
+                        android:drawablePadding="12dp"
+                        android:drawableTint="@color/iconTint"
+                        android:fontFamily="@font/futura_round"
+                        android:hint="@string/enter_your_pin_code"
+                        android:inputType="number" />
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/address_full_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/input_shape">
+
+                    <EditText
+                        android:id="@+id/address_full_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginBottom="12dp"
+                        android:layout_toEndOf="@id/location_drawable"
+                        android:background="@null"
+                        android:backgroundTint="@null"
+                        android:drawableTint="@color/iconTint"
+                        android:fontFamily="@font/futura_round"
+                        android:gravity="top"
+                        android:hint="@string/full_address"
+                        android:inputType="text"
+                        android:maxLines="5" />
+
+                    <ImageView
+                        android:id="@+id/location_drawable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="12dp"
+                        android:layout_marginTop="10dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:src="@drawable/ic_location"
+                        app:tint="@color/iconTint" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/landmark_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/input_shape">
+
+                    <EditText
+                        android:id="@+id/landmark_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="12dp"
+                        android:background="@null"
+                        android:backgroundTint="@null"
+                        android:drawableStart="@drawable/ic_location"
+                        android:drawablePadding="12dp"
+                        android:drawableTint="@color/iconTint"
+                        android:fontFamily="@font/futura_round"
+                        android:hint="@string/enter_landmarks_to_your_place"
+                        android:inputType="text" />
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:id="@+id/town_lay"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_shape">
+
+                        <EditText
+                            android:id="@+id/town_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="12dp"
+                            android:background="@null"
+                            android:backgroundTint="@null"
+                            android:drawableStart="@drawable/ic_location"
+                            android:drawablePadding="12dp"
+                            android:drawableTint="@color/iconTint"
+                            android:fontFamily="@font/futura_round"
+                            android:hint="@string/select_your_town"
+                            android:inputType="number" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/city_lay"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_shape">
+
+                        <EditText
+                            android:id="@+id/city_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="12dp"
+                            android:background="@null"
+                            android:backgroundTint="@null"
+                            android:drawableStart="@drawable/ic_location"
+                            android:drawablePadding="12dp"
+                            android:drawableTint="@color/iconTint"
+                            android:fontFamily="@font/futura_round"
+                            android:hint="@string/city"
+                            android:inputType="number" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <RelativeLayout
+                        android:id="@+id/state_lay"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="6dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_shape">
+
+                        <EditText
+                            android:id="@+id/state_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="12dp"
+                            android:background="@null"
+                            android:backgroundTint="@null"
+                            android:drawableStart="@drawable/ic_location"
+                            android:drawablePadding="12dp"
+                            android:drawableTint="@color/iconTint"
+                            android:fontFamily="@font/futura_round"
+                            android:hint="@string/state"
+                            android:inputType="number" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/country_lay"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/input_shape">
+
+                        <EditText
+                            android:id="@+id/country_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="12dp"
+                            android:background="@null"
+                            android:backgroundTint="@null"
+                            android:drawableStart="@drawable/ic_location"
+                            android:drawablePadding="12dp"
+                            android:drawableTint="@color/iconTint"
+                            android:fontFamily="@font/futura_round"
+                            android:hint="@string/country"
+                            android:inputType="number" />
+
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+
+                    android:id="@+id/register_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/auth_btn"
+                    android:elevation="12dp"
+                    android:orientation="vertical"
+                    android:outlineAmbientShadowColor="@color/primaryshadow"
+                    android:outlineSpotShadowColor="@color/primaryshadow"
+                    tools:targetApi="p">
+
+                    <TextView
+                        android:id="@+id/register_btn_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:fontFamily="@font/futura_round"
+                        android:paddingHorizontal="12sp"
+                        android:paddingVertical="10sp"
+                        android:text="@string/register"
+                        android:textColor="@color/white"
+                        android:visibility="visible" />
+
+                    <ProgressBar
+                        android:id="@+id/registerLoader"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_centerInParent="true"
+                        android:indeterminateTint="@color/white"
+                        android:visibility="gone" />
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/member_lay_reg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal"
+                    android:padding="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/futura_round"
+                        android:text="@string/already_a_member"
+                        android:textColor="?attr/colorOnBackground" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:fontFamily="@font/futura_round"
+                        android:text="@string/sign_in"
+                        android:textColor="@color/primary" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

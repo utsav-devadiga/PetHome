@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="town_locations">
+    <item >Aarey Milk Colony</item>
+    <item>Abhyudaya Nagar</item>
+    <item>Adarsh Nagar</item>
+    <item>Adharwadi</item>
+    <item>Agripada</item>
+    <item>Air India Staff Colony</item>
+    <item>Airport Area</item>
+    <item>Akurli Nagar</item>
+    <item>Alibag</item>
+    <item>Ambarnath</item>
+    <item>Ambarnath East</item>
+    <item>Ambarnath West</item>
+    <item>Ambedkar Nagar</item>
+    <item>Ambewadi</item>
+    <item>Ambivali</item>
+    <item>Amboli</item>
+    <item>Anand Nagar</item>
+    <item>Andheri East</item>
+    <item>Andheri West</item>
+    <item>Antop Hill</item>
+    <item>Apollo Bunder</item>
+    <item>Asangaon</item>
+    <item>Asha Nagar</item>
+    <item>August Kranti Maidan</item>
+    <item>Azad Nagar</item>
+    <item>Badlapur</item>
+    <item>Badlapur East</item>
+    <item>Badlapur West</item>
+    <item>Balkum</item>
+    <item>Ballard Estate</item>
+    <item>Bandra East</item>
+    <item>Bandra Kurla Complex</item>
+    <item>Bandra West</item>
+    <item>Bangur Nagar</item>
+    <item>Bazargate</item>
+    <item>Behram Baug</item>
+    <item>Beverly Park</item>
+    <item>Bhakti Park</item>
+    <item>Bhandup</item>
+    <item>Bhandup East</item>
+    <item>Bhandup West</item>
+    <item>Bharat Nagar</item>
+    <item>Bhayandar</item>
+    <item>Bhayandar East</item>
+    <item>Bhayandar West</item>
+    <item>Bhindi Bazaar</item>
+    <item>Bhivpuri</item>
+    <item>Bhiwandi</item>
+    <item>Bhoiwada</item>
+    <item>Bhuleshwar</item>
+    <item>BN Bhavan</item>
+    <item>Boisar</item>
+    <item>Boisar West</item>
+    <item>Bolinj</item>
+    <item>Borivali</item>
+    <item>Borivali East</item>
+    <item>Borivali West</item>
+    <item>BPT Colony</item>
+    <item>Brahmand</item>
+    <item>Breach Candy</item>
+    <item>Byculla</item>
+    <item>Byculla East</item>
+    <item>Byculla West</item>
+    <item>Carnac Bunder</item>
+    <item>CGS Colony</item>
+    <item>Chakala</item>
+    <item>Chamar Baug</item>
+    <item>Chandan Shanti</item>
+    <item>Chandivali</item>
+    <item>Charai</item>
+    <item>Charkop</item>
+    <item>Chembur</item>
+    <item>Chembur Colony</item>
+    <item>Chembur East</item>
+    <item>Chembur West</item>
+    <item>Chikholi</item>
+    <item>Chikuwadi</item>
+    <item>Chinch Bandar</item>
+    <item>Chincholi Bunder</item>
+    <item>Chinchpokli</item>
+    <item>Chinchpokli East</item>
+    <item>Chinchpokli West</item>
+    <item>Chiplun</item>
+    <item>Chira Bazaar</item>
+    <item>Chowk</item>
+    <item>Chowpatty</item>
+    <item>Chuna Bhatti</item>
+    <item>Churchgate</item>
+    <item>Colaba</item>
+    <item>Cotton Green</item>
+    <item>Cotton Green West</item>
+    <item>CP Tank</item>
+    <item>Crawford Market</item>
+    <item>CST Area</item>
+    <item>Cuffe Parade</item>
+    <item>Cumbala Hill</item>
+    <item>Dadar</item>
+    <item>Dadar Colony</item>
+    <item>Dadar East</item>
+    <item>Dadar TT</item>
+    <item>Dadar West</item>
+    <item>Dahanukar Wadi</item>
+    <item>Dahisar</item>
+    <item>Dahisar East</item>
+    <item>Dahisar West</item>
+    <item>Dahivali</item>
+    <item>Dana Bunder</item>
+    <item>Danda</item>
+    <item>Dattapada</item>
+    <item>Deonar</item>
+    <item>Deonar East</item>
+    <item>Devdaya Nagar</item>
+    <item>Dharavi</item>
+    <item>Dhobi Ali</item>
+    <item>Dhobi Talao</item>
+    <item>Dhokali</item>
+    <item>Diamond Garden</item>
+    <item>Dindoshi</item>
+    <item>Dockyard</item>
+    <item>Dombivali</item>
+    <item>Dombivali East</item>
+    <item>Dombivali West</item>
+    <item>Dongri</item>
+    <item>Dronagiri</item>
+    <item>Eden Wood</item>
+    <item>Eksar</item>
+    <item>Ekvira Darshan</item>
+    <item>Evershine Nagar</item>
+    <item>Flora Fountain</item>
+    <item>Fort</item>
+    <item>Four Bungalows</item>
+    <item>Gamdevi</item>
+    <item>Gandhi Nagar</item>
+    <item>Gauripada</item>
+    <item>Gawand Baug</item>
+    <item>Ghati Pada</item>
+    <item>Ghatkopar</item>
+    <item>Ghatkopar East</item>
+    <item>Ghatkopar West</item>
+    <item>Girgaon</item>
+    <item>Girgaon Chowpatty</item>
+    <item>Girgaum</item>
+    <item>Gokul Township</item>
+    <item>Gokuldham</item>
+    <item>Gorai</item>
+    <item>Gorai 1</item>
+    <item>Gorai 2</item>
+    <item>Gorai Nagar</item>
+    <item>Goregaon</item>
+    <item>Goregaon East</item>
+    <item>Goregaon West</item>
+    <item>Govandi</item>
+    <item>Govandi East</item>
+    <item>Govandi West</item>
+    <item>Government Colony</item>
+    <item>Gowalia Tank</item>
+    <item>Grant Road East</item>
+    <item>Grant Road West</item>
+    <item>Green Park Extension</item>
+    <item>GTB Nagar</item>
+    <item>Gulalwadi</item>
+    <item>Haji Ali</item>
+    <item>Hanuman Nagar</item>
+    <item>Hatkesh Udhog Nagar</item>
+    <item>Horiman Circle</item>
+    <item>Hutatma Chowk</item>
+    <item>Huzefa Nagar</item>
+    <item>IC Colony</item>
+    <item>Industrial Area</item>
+    <item>INS Hamla</item>
+    <item>Irla</item>
+    <item>Jacob Circle</item>
+    <item>Jankalyan Nagar</item>
+    <item>Jawahar Nagar</item>
+    <item>Jawhar</item>
+    <item>JB Nagar</item>
+    <item>Jogeshwari</item>
+    <item>Jogeshwari East</item>
+    <item>Jogeshwari West</item>
+    <item>Juhu</item>
+    <item>Juhu Scheme</item>
+    <item>JVPD</item>
+    <item>Kala Ghoda</item>
+    <item>Kalachowki</item>
+    <item>Kalbadevi</item>
+    <item>Kalher</item>
+    <item>Kalina</item>
+    <item>Kalwa</item>
+    <item>Kalwa West</item>
+    <item>Kalyan</item>
+    <item>Kalyan East</item>
+    <item>Kalyan West</item>
+    <item>Kamathipura</item>
+    <item>Kanchpada</item>
+    <item>Kandarpada</item>
+    <item>Kandivali</item>
+    <item>Kandivali East</item>
+    <item>Kandivali West</item>
+    <item>Kanjurmarg</item>
+    <item>Kanjurmarg East</item>
+    <item>Kanjurmarg West</item>
+    <item>Kapurbawadi</item>
+    <item>Karjat</item>
+    <item>Kasar Vadavali</item>
+    <item>Kasara</item>
+    <item>Kasheli</item>
+    <item>Kashigaon</item>
+    <item>Kashimira</item>
+    <item>Katrap</item>
+    <item>Kavesar</item>
+    <item>Kemps Corner</item>
+    <item>Ketkipada</item>
+    <item>Kewale</item>
+    <item>Khadakpada</item>
+    <item>Khalapur</item>
+    <item>Khandala</item>
+    <item>Khar</item>
+    <item>Khar Danda</item>
+    <item>Khar East</item>
+    <item>Khar West</item>
+    <item>Kharbao</item>
+    <item>Khardi</item>
+    <item>Kharegaon</item>
+    <item>Kharodi</item>
+    <item>Kherwadi</item>
+    <item>Khetwadi</item>
+    <item>Khopat</item>
+    <item>Khopoli</item>
+    <item>Kidwai Nagar</item>
+    <item>Kings Circle</item>
+    <item>Kolshet</item>
+    <item>Kopri</item>
+    <item>Koproli</item>
+    <item>Kulupwadi</item>
+    <item>Kurla</item>
+    <item>Kurla East</item>
+    <item>Kurla West</item>
+    <item>Lal Baug</item>
+    <item>Liberty Garden</item>
+    <item>Lohar Chawl</item>
+    <item>Lokhandwala</item>
+    <item>Lokmanya Nagar</item>
+    <item>Louis Wadi</item>
+    <item>Lower Parel</item>
+    <item>Lower Parel East</item>
+    <item>Lower Parel West</item>
+    <item>Madh Island</item>
+    <item>Madhavbaug</item>
+    <item>Magathane</item>
+    <item>Mahad</item>
+    <item>Mahalakshmi</item>
+    <item>Mahavir Nagar</item>
+    <item>Mahim</item>
+    <item>Mahim East</item>
+    <item>Mahim West</item>
+    <item>Majiwada</item>
+    <item>Malabar Hill</item>
+    <item>Malad</item>
+    <item>Malad East</item>
+    <item>Malad West</item>
+    <item>Malvani</item>
+    <item>Mankhurd</item>
+    <item>Manor</item>
+    <item>Manpada</item>
+    <item>Mantralaya</item>
+    <item>Marine Drive</item>
+    <item>Marine Lines</item>
+    <item>Marol</item>
+    <item>Marol Naka</item>
+    <item>Masjid Bunder</item>
+    <item>Matunga</item>
+    <item>Matunga East</item>
+    <item>Matunga West</item>
+    <item>Mazgaon</item>
+    <item>MHADA Colony</item>
+    <item>Mindspace</item>
+    <item>Mira Bhayandar</item>
+    <item>Mira Road East</item>
+    <item>Morya Nagar</item>
+    <item>Motilal Nagar I</item>
+    <item>Motilal Nagar II</item>
+    <item>Motilal Nagar III</item>
+    <item>MPT</item>
+    <item>Mulund</item>
+    <item>Mulund Colony</item>
+    <item>Mulund East</item>
+    <item>Mulund West</item>
+    <item>Mumbai Central</item>
+    <item>Mumbra</item>
+    <item>Murbad</item>
+    <item>Nagpada</item>
+    <item>Nahar Amrit Shakti</item>
+    <item>Nahur</item>
+    <item>Nahur East</item>
+    <item>Nahur West</item>
+    <item>Naigaon</item>
+    <item>Naigaon East</item>
+    <item>Naigaon West</item>
+    <item>Nalasopara</item>
+    <item>Nalasopara East</item>
+    <item>Nalasopara West</item>
+    <item>Nariman Point</item>
+    <item>Naupada</item>
+    <item>Naya Nagar</item>
+    <item>Nehru Nagar</item>
+    <item>Neral</item>
+    <item>Nerul</item>
+    <item>Nilje Gaon</item>
+    <item>Opera House</item>
+    <item>Orlem</item>
+    <item>Oshiwara</item>
+    <item>Owale</item>
+    <item>Palghar</item>
+    <item>Pali Hill</item>
+    <item>Panch Pakhadi</item>
+    <item>Panchamratna Park</item>
+    <item>Panchkutir Ganesh Nagar</item>
+    <item>Pant Nagar</item>
+    <item>Parel</item>
+    <item>Parsik Nagar</item>
+    <item>Patlipada</item>
+    <item>Pen</item>
+    <item>Poonam Gardens</item>
+    <item>Poonam Nagar</item>
+    <item>Poonam Sagar Complex</item>
+    <item>Powai</item>
+    <item>Prabhadevi</item>
+    <item>Pratiksha Nagar</item>
+    <item>Princess Dock</item>
+    <item>Raheja Vihar</item>
+    <item>Raigad</item>
+    <item>Rajendra Nagar</item>
+    <item>Rajiv Gandhi Nagar</item>
+    <item>Ramwadi</item>
+    <item>Rasayani</item>
+    <item>Reclamation</item>
+    <item>Sahar Village</item>
+    <item>Sakinaka</item>
+    <item>Samata Nagar</item>
+    <item>Santacruz</item>
+    <item>Santacruz East</item>
+    <item>Santacruz West</item>
+    <item>Saphale</item>
+    <item>Sarvodaya Nagar</item>
+    <item>Seawoods</item>
+    <item>SEEPZ</item>
+    <item>Seven Bungalows</item>
+    <item>Sewri</item>
+    <item>Shahapur</item>
+    <item>Shanti Nagar</item>
+    <item>Shastri Nagar</item>
+    <item>Sher E Punjab Colony</item>
+    <item>Shiv Sagar Estate</item>
+    <item>Shivai Nagar</item>
+    <item>Shivaji Park</item>
+    <item>Shroff Mahajan</item>
+    <item>Siddharth Nagar</item>
+    <item>Sion</item>
+    <item>Sion East</item>
+    <item>Sion West</item>
+    <item>Sonar Pada</item>
+    <item>Srinagar Colony</item>
+    <item>Sunder Nagar</item>
+    <item>Sunil Nagar</item>
+    <item>Swastik Park</item>
+    <item>Tardeo</item>
+    <item>Teen Haath Naka</item>
+    <item>Tembhi Naka</item>
+    <item>Thakur Village</item>
+    <item>Thakurdwar</item>
+    <item>Thakurli</item>
+    <item>Thane East</item>
+    <item>Thane West</item>
+    <item>Tilak Nagar</item>
+    <item>Titwala</item>
+    <item>Town Hall</item>
+    <item>Tulsiwadi</item>
+    <item>Ulhasnagar</item>
+    <item>Umroli</item>
+    <item>Upper Worli</item>
+    <item>Vajreshwari</item>
+    <item>Vakola</item>
+    <item>Valmiki Nagar</item>
+    <item>Vangani</item>
+    <item>Vartak Nagar</item>
+    <item>Vasai</item>
+    <item>Vasai East</item>
+    <item>Vasai West</item>
+    <item>Vasant Nagari</item>
+    <item>Vasant Vihar</item>
+    <item>Vasind</item>
+    <item>Versova</item>
+    <item>Vidyanagari</item>
+    <item>Vidyavihar</item>
+    <item>Vidyavihar West</item>
+    <item>Vijay Nagar</item>
+    <item>Vijay Park</item>
+    <item>Vikhroli</item>
+    <item>Vikhroli East</item>
+    <item>Vikhroli West</item>
+    <item>Vile Parle</item>
+    <item>Vile Parle East</item>
+    <item>Vile Parle West</item>
+    <item>Virar</item>
+    <item>Virar East</item>
+    <item>Virar West</item>
+    <item>VJB Udyan</item>
+    <item>VK Bhavan</item>
+    <item>Vrindavan</item>
+    <item>Wada</item>
+    <item>Wadala</item>
+    <item>Wadala East</item>
+    <item>Wadala West</item>
+    <item>Waghbil</item>
+    <item>Wagle Estate</item>
+    <item>Walkeshwar</item>
+    <item>Worli</item>
+    <item>Worli Hill</item>
+    <item>Worli Seaface</item>
+    <item>YK Nagar</item>
+    <item>Yogidham</item>
+</string-array>
+
+
+</resources>
